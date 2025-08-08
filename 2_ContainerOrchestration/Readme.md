@@ -30,7 +30,7 @@
 |-------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [Containers vs Virtual Machines](../1_Containers/ContainerVsVMs.md)         |                                                                             |
 | [Container Registry Services](../1_Containers/ContainerRegistryServices.md) |                                                                             |
-| [Apache Yarn](ApacheYarn.md)                                | Big-Data Processing (part of [Hadoop](../../Big-Data/ApacheHadoop/Readme.md)) | 
+| [Apache Yarn](ApacheYarn.md)                                | Big-Data Processing (part of [Hadoop](https://github.com/Anshul619/Big-Data/tree/main/ApacheHadoop/Readme.md)) | 
 
 # When not to use containers?
 

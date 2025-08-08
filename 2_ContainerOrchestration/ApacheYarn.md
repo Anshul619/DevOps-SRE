@@ -2,7 +2,7 @@
 # Apache Yarn
 - Manages and monitors cluster nodes and resource usage. 
 - It schedules jobs and tasks.
-- It's part of [Apache Hadoop](../../Big-Data/ApacheHadoop)
+- It's part of [Apache Hadoop](https://github.com/Anshul619/Big-Data/tree/main/ApacheHadoop)
 - Yarn doesn't support containerization (docker etc.). Its specifically for Hadoop deployments.
 
 # References
