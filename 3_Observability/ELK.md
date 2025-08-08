@@ -2,7 +2,7 @@
 
 | Service                                                               | Category                | Remarks                                                                         |
 |-----------------------------------------------------------------------|-------------------------|---------------------------------------------------------------------------------|
-| [Elasticsearch](../../HLD-System-Designs/1_Databases/9_Search-Databases/ElasticSearch) | NoSQL database          | Used to store the unstructured data                                             |
+| [Elasticsearch](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/9_Search-Databases/ElasticSearch) | NoSQL database          | Used to store the unstructured data                                             |
 | [Logstash](https://www.elastic.co/logstash/)                          | Log pipeline tool       | Perform transformation on data                                                  |
 | [Kibana](https://www.elastic.co/kibana/)                              | Data visualization tool | Provides an interactive UI (User Interface) to the users for data visualization |
 
@@ -11,7 +11,7 @@
 
 ![](ServersHealthObervabilityHLD.png)
 
-[Read more](../../HLD-System-Designs/0_UseCaseDesigns/ObervabilityLoggingSolution/Readme.md)
+[Read more](https://github.com/Anshul619/HLD-System-Designs/blob/main/0_UseCaseDesigns/ObervabilityLoggingSolution/Readme.md)
 
 # Features
 
@@ -23,6 +23,6 @@
 | Supported Client Libraries | Elastic offers a host of language clients, which includes Ruby, Python, PHP, Perl, .NET, Java, and JavaScript, and more                                                                                                                     |
 
 # Other Points
-- [Distributed Logging Solution using ELK](../../HLD-System-Designs/0_UseCaseDesigns/ObervabilityLoggingSolution/LoggingFileAggregation/Readme.md)
+- [Distributed Logging Solution using ELK](https://github.com/Anshul619/HLD-System-Designs/blob/main/0_UseCaseDesigns/ObervabilityLoggingSolution/LoggingFileAggregation/Readme.md)
 - [How filebeat works?](https://www.elastic.co/guide/en/beats/filebeat/current/how-filebeat-works.html)
 - [Installation using Docker ELK](https://github.com/deviantony/docker-elk)

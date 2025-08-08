@@ -3,7 +3,7 @@
 
 # What is Apache Mesos? 
 - [Apache Mesos](https://mesos.apache.org/) is built using the same principles as the Linux kernel, only at a different level of abstraction. 
-- The Mesos kernel runs on every machine and provides applications (e.g., [Hadoop](https://github.com/Anshul619/Big-Data/tree/main/ApacheHadoop), [Spark](https://github.com/Anshul619/Big-Data/tree/main/DataProcessing/ApacheSpark/Readme.md), [Kafka](../../HLD-System-Designs/2_MessageBrokersEDA/Kafka/Readme.md), [Elasticsearch](../../HLD-System-Designs/1_Databases/9_Search-Databases/ElasticSearch)) with API’s for resource management and scheduling across entire datacenter and cloud environments.
+- The Mesos kernel runs on every machine and provides applications (e.g., [Hadoop](https://github.com/Anshul619/Big-Data/tree/main/ApacheHadoop), [Spark](https://github.com/Anshul619/Big-Data/tree/main/DataProcessing/ApacheSpark/Readme.md), [Kafka](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/Kafka/Readme.md), [Elasticsearch](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/9_Search-Databases/ElasticSearch)) with API’s for resource management and scheduling across entire datacenter and cloud environments.
 
 ## Features
 
@@ -12,13 +12,13 @@
 - Program like it's a single of resources.
 
 ### Linear Scalability
-- [Linear Scalability](../../HLD-System-Designs/1_Databases/3_Scalability-Techniques/Readme.md) - Industry proven to easily scale to 10,000s of nodes.
+- [Linear Scalability](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/3_Scalability-Techniques/Readme.md) - Industry proven to easily scale to 10,000s of nodes.
 
 ### High availability
-- [Fault-tolerant](../../HLD-System-Designs/5_HighAvailability/Readme.md) replicated master and agents using [Zookeeper](../5_ClusterCoordination/ApacheZookeeper.md).
+- [Fault-tolerant](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/Readme.md) replicated master and agents using [Zookeeper](../5_ClusterCoordination/ApacheZookeeper.md).
 - It uses [Zookeeper](../5_ClusterCoordination/ApacheZookeeper.md) for the leader election.
 - If the Mesos master is unavailable, existing tasks can continue to execute, but new resources cannot be allocated and new tasks cannot be launched. 
-- To reduce the chance of this situation occurring, Mesos has a [high-availability](../../HLD-System-Designs/5_HighAvailability/Readme.md) mode that uses multiple Mesos masters
+- To reduce the chance of this situation occurring, Mesos has a [high-availability](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/Readme.md) mode that uses multiple Mesos masters
   - One active master (called the leader or leading master) and several backups in case it fails. 
 - The masters elect the leader, with [Zookeeper](../5_ClusterCoordination/ApacheZookeeper.md) both coordinating the election and handling leader detection by masters, agents, and scheduler drivers
 

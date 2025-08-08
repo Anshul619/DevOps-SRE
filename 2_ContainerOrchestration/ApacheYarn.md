@@ -1,4 +1,3 @@
-
 # Apache Yarn
 - Manages and monitors cluster nodes and resource usage. 
 - It schedules jobs and tasks.

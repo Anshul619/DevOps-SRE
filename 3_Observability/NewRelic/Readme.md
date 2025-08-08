@@ -1,7 +1,7 @@
 # Introduction
 - [NewRelic](https://newrelic.com/) helps to monitor, debug, and improve your entire stack.
 - New Relic is where dev, ops, security and business teams solve software–performance problems with data.
-- New Relic uses [Apache Lucene](../../../HLD-System-Designs/1_Databases/9_Search-Databases/Readme.md).
+- New Relic uses [Apache Lucene](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/9_Search-Databases/Readme.md).
 
 # Demo Account
 - URL - one.newrelic.com
