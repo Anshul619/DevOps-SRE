@@ -1,0 +1,21 @@
+@startuml
+skinparam rectangle {
+  BackgroundColor LightBlue
+  BorderColor Black
+  RoundCorner 15
+}
+skinparam titleFontSize 16
+skinparam titleFontStyle bold
+
+title DevOps Observability Stack
+
+rectangle "Structured Logging\n(JSON logs, consistent keys\nfor search & automation)" as Logging
+rectangle "Metrics\n(Numerical values for performance\nand health monitoring)" as Metrics
+rectangle "Tracing\n(Request flow across services\nwith latency details)" as Tracing
+rectangle "Visualization & Alerting\n(Dashboards, alerts, incident detection)" as Visualization
+
+Logging -down-> Metrics
+Metrics -down-> Tracing
+Tracing -down-> Visualization
+
+@enduml

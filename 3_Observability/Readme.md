@@ -1,7 +1,10 @@
+# Observability Stack
+
+[](assets/ObservabilityStack.png)
 
 # Monitoring Services & Tools
 
-| Service                                                                                                                     | Type                  | Open Source | Description                                                                           |
+| Service                                                                                                                     | Type                  | Open Source | Remarks                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------|-----------------------|-------------|---------------------------------------------------------------------------------------|
 | :star: [New Relic](NewRelic/Readme.md)                                                                                      | Observability, Alerts | No          | Monitor, debug, and improve your entire stack.                                        |
 | :star: [PagerDuty](IncidentResponse/PagerDuty.md)                                                                           | IncidentResponse      | No          | Incident Response & On-Call Management                                                |
@@ -23,6 +26,10 @@
 | MTTD (Mean time to Detection)  | [MTTD](https://www.logicmonitor.com/blog/whats-the-difference-between-mttr-mttd-mttf-and-mtbf) is the amount of time, on average, between the start of an issue and when teams become aware of it. This does not include time spent troubleshooting or fixing the issue.                                                                                     |
 | MTTR (Mean time to Resolution) | [MTTR](https://www.logicmonitor.com/blog/whats-the-difference-between-mttr-mttd-mttf-and-mtbf) is the average amount of time between when an issue is detected, and when systems are fixed and operating normally again. <br/>- Ideally this includes both time spent fixing the issue, and implementing proactive steps to prevent it from happening again. |
 | Telemetry Data                 | MELT - Metrics, Events, Logs, and Traces.                                                                                                                                                                                                                                                                                                                    |
+
+# ELK & Server Health Stack
+
+[](assets/ServersHealthObervabilityHLD.png)
 
 # References
 - [Opportunities in Observability](https://rosslazer.com/posts/opps-in-o11y/)

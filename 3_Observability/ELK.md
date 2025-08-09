@@ -9,7 +9,7 @@
 # Observability System Design
 - [ELK]() can be deployed using [Amazon OpenSearch](https://github.com/Anshul619/AWS-Services/tree/main/1_Databases/AmazonOpenSearch/Readme.md) on [AWS](https://github.com/Anshul619/AWS-Services/tree/main/).
 
-![](ServersHealthObervabilityHLD.png)
+![](assets/ServersHealthObervabilityHLD.png)
 
 [Read more](https://github.com/Anshul619/HLD-System-Designs/blob/main/0_UseCaseDesigns/ObervabilityLoggingSolution/Readme.md)
 
