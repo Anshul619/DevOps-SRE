@@ -18,6 +18,7 @@
 | [Source Code profiling](https://aws.amazon.com/codeguru/)                                                                   | Profiling             | No          |                                                                                       |
 | [Nagios](https://www.nagios.org/)                                                                                           | Observability         | Yes         |                                                                                       |
 | [Falcon LogScale](https://library.humio.com/)                                                                               | Observability         | No          |                                                                                       |
+| [Open Observe](https://openobserve.ai)                                                                                      | Observability         | No          | Little cost effective than New Relic                                                  |
 
 # Terminologies
 
